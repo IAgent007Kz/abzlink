@@ -30,7 +30,7 @@
 <body>
   <h1>🔖 Мои сайты</h1>
   <div class="grid">
-    <a class="card" href="https://example.com">
+    <a class="card" href="https://nationalbank.kz/ru/news/pryamye-investicii-po-napravleniyu-vlozheniya">
       <div class="title">Example</div>
       <div class="url">example.com</div>
     </a>
