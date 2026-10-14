@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Мои сайты</title>
+<style>
+  :root { --bg:#0f1115; --card:#1a1d24; --text:#e8eaed; --accent:#4a9eff; }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, system-ui, sans-serif;
+    background: var(--bg); color: var(--text);
+    margin: 0; padding: 24px;
+    max-width: 900px; margin-inline: auto;
+  }
+  h1 { font-size: 22px; margin: 0 0 20px; }
+  .grid { display: grid; gap: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+  a.card {
+    display: block; padding: 16px; background: var(--card);
+    border-radius: 12px; color: var(--text); text-decoration: none;
+    transition: transform .15s, background .15s;
+    border: 1px solid #262a33;
+  }
+  a.card:hover { background: #222732; transform: translateY(-2px); }
+  a.card .title { font-weight: 600; margin-bottom: 4px; }
+  a.card .url { font-size: 12px; color: #8a94a6; word-break: break-all; }
+</style>
+</head>
+<body>
+  <h1>🔖 Мои сайты</h1>
+  <div class="grid">
+    <a class="card" href="https://example.com">
+      <div class="title">Example</div>
+      <div class="url">example.com</div>
+    </a>
+    <!-- добавляйте новые ссылки копированием блока выше -->
+  </div>
+</body>
+</html>
